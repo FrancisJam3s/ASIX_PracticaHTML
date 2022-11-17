@@ -1,0 +1,23 @@
+/* Cada un dels claudators contenen un .class */
+/* Respectivament son el Ed, Edit, Title i el Cap */
+.Ed, .Edit {
+  /* Com podem veure hem afegit una estructura al nostre html
+  amb el border i el border-collapse que ens permetrá tenir 
+  una estructura de taula */
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+.Edit:nth-child(1) {
+  /* Aqui, afegirm un color a la primera fila de la taula */
+    background-color:lightgray;
+  }
+.Title {
+  /* Hem centrat i afegit un color al títol*/
+  color: darkviolet;
+  text-align: center;
+}
+.Cap {
+  /* Només hem afegit un color al text */
+color:blue
+}
